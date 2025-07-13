@@ -55,7 +55,7 @@ export const coursesData = [
     img: "./TypeScript.png",
     department: "Web Development",
     title: "TypeScript",
-    rating: " #4,6",
+    rating: "4,6",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatum enim totam molestiae quidem. Ad aliquid ut quo pariatur! Dicta distinctio amet expedita eveniet non nemo blanditiis animi mollitia accusamus.",
     sales: "160",
@@ -77,5 +77,35 @@ export const coursesData = [
     discount: "$8.99",
     duration: "16hr 30min",
     lessons: "107 Lessons",
+  },
+];
+
+export const ratingData = [
+  {
+    id: 1,
+    stars: 5,
+    img: "./Person1.jpeg",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatum enim totam molestiae quidem. Ad aliquid ut quo pariatur! Dicta distinctio amet expedita eveniet non nemo blanditiis animi mollitia accusamus.",
+    name: "Saeed Mohammed",
+    jop: "Web Developer",
+  },
+  {
+    id: 2,
+    stars: 4,
+    img: "./Person2.jpeg",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatum enim totam molestiae quidem. Ad aliquid ut quo pariatur! Dicta distinctio amet expedita eveniet non nemo blanditiis animi mollitia accusamus.",
+    name: "Mohammed Saleh",
+    jop: "Software Engineer",
+  },
+  {
+    id: 3,
+    stars: 5,
+    img: "./Person3.jpeg",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatum enim totam molestiae quidem. Ad aliquid ut quo pariatur! Dicta distinctio amet expedita eveniet non nemo blanditiis animi mollitia accusamus.",
+    name: "Omer Ali",
+    jop: "Mobile Devloper",
   },
 ];

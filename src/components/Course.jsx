@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Course = ({ course }) => {
   return (
-    <div className='course relative'>
+    <div className='course relative rounded-[40px] overflow-hidden'>
       <span className='absolute top-5 left-5 py-1.5 px-2 text-white bg-[var(--red)] rounded-xl font-medium text-[12px]'>
         Sale
       </span>
@@ -39,12 +39,13 @@ const Course = ({ course }) => {
               icon={faBookOpen}
               color='var(--sky-blue)'
               size='lg'
-              
-            />{" "}
+            />
             {course.lessons}
           </p>
         </div>
-        <a href='#'>
+        <a
+          href='#'
+          className='inline-block p-3 border-1 border-[var(--sky-blue)] text-[var(--sky-blue rounded-3xl'>
           Learn More <FontAwesomeIcon icon={faAngleRight} />
         </a>
       </div>

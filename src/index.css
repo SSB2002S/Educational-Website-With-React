@@ -40,7 +40,24 @@ p {
   height: calc(100vh - 100px);
 } */
 
-.home-header p{
+.home-header p {
   line-height: 1.6;
 }
 /*Home*/
+
+/*Courses*/
+#courses .course .content .course-info p svg {
+  margin-right: 4px;
+}
+/*Courses*/
+
+/*Footer*/
+.footer-row ul li {
+  margin: 10px 0;
+  color: var(--light-grat);
+  font-weight: 500;
+}
+.footer-row ul li a {
+  color: var(--light-grat);
+}
+/*Footer*/

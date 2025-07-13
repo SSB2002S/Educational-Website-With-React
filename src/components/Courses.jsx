@@ -16,7 +16,7 @@ const Courses = () => {
         </div>
         <div className='mt-9 grid max-sm:grid-cols-1 min-md:grid-cols-2 min-lg:grid-cols-3 gap-10'>
           {coursesData.map((course) => {
-            return <Course course={course} />;
+            return <Course key={course.id} course={course} />;
           })}
         </div>
       </section>
